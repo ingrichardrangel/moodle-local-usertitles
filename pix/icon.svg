@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-labelledby="title">
+  <title id="title">User titles</title>
+  <path fill="#1f2937" d="M12 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Z"/>
+  <path fill="#1f2937" d="M4 22v-3.2C4 15.6 7.6 14 12 14s8 1.6 8 4.8V22h-2v-3.2c0-1.4-2.4-2.8-6-2.8s-6 1.4-6 2.8V22H4Z"/>
+  <path fill="#2563eb" d="M2 3h6v2H6v6H4V5H2V3Zm14 0h6v2h-2v6h-2V5h-2V3Z"/>
+</svg>
+
