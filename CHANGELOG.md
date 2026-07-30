@@ -2,6 +2,15 @@
 
 All notable changes to User titles are documented in this file.
 
+## 1.0.0-beta.5 - 2026-07-30
+
+### Fixed
+
+- Align all PHP file headers with Moodle's canonical GPL boilerplate.
+- Remove redundant internal-access checks from function-only callback files.
+- Sort English language keys according to Moodle coding standards.
+- Declare PHPUnit coverage metadata for all test classes.
+
 ## 1.0.0-beta.4 - 2026-07-30
 
 ### Fixed

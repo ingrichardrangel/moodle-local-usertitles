@@ -8,11 +8,11 @@
 //
 // Moodle is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle. If not, see <https://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
  * English language strings for the User titles plugin.
@@ -41,10 +41,10 @@ $string['deletetitle'] = 'Delete title';
 $string['disabled'] = 'Disabled';
 $string['disabledcurrent'] = '{$a} (disabled)';
 $string['edittitle'] = 'Edit title';
+$string['enabled'] = 'Enabled';
 $string['enablevisualtitles'] = 'Display titles throughout Moodle pages';
 $string['enablevisualtitles_help'] = 'When enabled, assigned titles are added visually to user profile links throughout '
     . 'Moodle pages. Stored names and exported data are not changed.';
-$string['enabled'] = 'Enabled';
 $string['errorabbreviationexists'] = 'A title with this abbreviation already exists.';
 $string['errorinvalidtitle'] = 'The selected title is not available.';
 $string['errornamerequired'] = 'Enter a title name.';
@@ -56,8 +56,8 @@ $string['eventusertitleupdated'] = 'User title updated';
 $string['manageheading'] = 'User titles';
 $string['managetitles'] = 'Manage user titles';
 $string['name'] = 'Name';
-$string['notitles'] = 'No titles have been created yet.';
 $string['notitle'] = 'No title';
+$string['notitles'] = 'No titles have been created yet.';
 $string['pluginname'] = 'User titles';
 $string['privacy:metadata:assignment'] = 'Stores the title assigned to a user and the value synchronized to the Moodle '
     . 'alternate name field.';
@@ -80,8 +80,7 @@ $string['titlename_help'] = 'The descriptive name of the title, for example Prof
 $string['titlesaved'] = 'The title has been saved.';
 $string['usertitle'] = 'User title';
 $string['usertitlefor'] = 'User title for {$a}';
-$string['viewsettings'] = 'Open plugin settings';
-
 $string['usertitles:assignusertitles'] = 'Assign titles to users';
 $string['usertitles:managetitles'] = 'Manage the title catalogue';
 $string['usertitles:selectowntitle'] = 'Select own title';
+$string['viewsettings'] = 'Open plugin settings';

@@ -8,11 +8,11 @@
 //
 // Moodle is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle. If not, see <https://www.gnu.org/licenses/>.
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 namespace local_usertitles\external;
 
@@ -24,6 +24,7 @@ use local_usertitles\manager;
  * @package   local_usertitles
  * @copyright 2026 Richard Rangel
  * @license   https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ * @covers    \local_usertitles\external\get_user_titles
  */
 final class get_user_titles_test extends \advanced_testcase {
     /**
