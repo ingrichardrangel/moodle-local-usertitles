@@ -7,11 +7,11 @@
 //
 // Moodle is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle. If not, see <http://www.gnu.org/licenses/>.
 
 import {call as ajaxCall} from 'core/ajax';
 
@@ -245,6 +245,8 @@ const scheduleScan = () => {
 
 /**
  * Starts global visual title display.
+ *
+ * @param {number|string} loggedInUserId The current user's ID.
  */
 export const init = (loggedInUserId = 0) => {
     currentUserId = Number.parseInt(loggedInUserId, 10) || 0;

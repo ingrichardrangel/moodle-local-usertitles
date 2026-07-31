@@ -2,6 +2,14 @@
 
 All notable changes to User titles are documented in this file.
 
+## 1.0.0-beta.6 - 2026-07-31
+
+### Fixed
+
+- Resolve Moodle CodeSniffer formatting violations in capability, form, event,
+  and privacy provider files.
+- Document the JavaScript initialisation parameter required by Moodle ESLint.
+
 ## 1.0.0-beta.5 - 2026-07-30
 
 ### Fixed

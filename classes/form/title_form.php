@@ -8,11 +8,11 @@
 //
 // Moodle is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+// along with Moodle. If not, see <http://www.gnu.org/licenses/>.
 
 namespace local_usertitles\form;
 
@@ -99,11 +99,13 @@ class title_form extends \moodleform {
         }
         if ($abbreviation === '') {
             $errors['abbreviation'] = get_string('required');
-        } else if ($DB->record_exists_select(
-            'local_usertitles_title',
-            'abbreviation = :abbreviation AND id <> :id',
-            ['abbreviation' => $abbreviation, 'id' => $id]
-        )) {
+        } else if (
+            $DB->record_exists_select(
+                'local_usertitles_title',
+                'abbreviation = :abbreviation AND id <> :id',
+                ['abbreviation' => $abbreviation, 'id' => $id]
+            )
+        ) {
             $errors['abbreviation'] = get_string('errorabbreviationexists', 'local_usertitles');
         }
         if ((int) ($data['sortorder'] ?? 0) < 0) {
@@ -113,4 +115,3 @@ class title_form extends \moodleform {
         return $errors;
     }
 }
-
