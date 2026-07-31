@@ -148,4 +148,3 @@ jobs:
       - name: Mark cancelled jobs as failed.
         if: ${{ cancelled() }}
         run: exit 1
-        run: exit 1
