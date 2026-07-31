@@ -2,6 +2,13 @@
 
 All notable changes to User titles are documented in this file.
 
+## 1.0.0-beta.7 - 2026-07-31
+
+### Fixed
+
+- Use the canonical Moodle GPL boilerplate spacing in all PHP and JavaScript
+  source files.
+
 ## 1.0.0-beta.6 - 2026-07-31
 
 ### Fixed
