@@ -2,6 +2,17 @@
 
 All notable changes to User titles are documented in this file.
 
+## 1.0.0 - 2026-07-31
+
+### Added
+
+- Stable release of User titles.
+- Institutional title catalogue and title assignment management.
+- Configurable user self-selection.
+- Global visual title display without modifying Moodle's stored user names.
+- Compatibility with Moodle 4.5 through 5.2.
+- Privacy API, capabilities, audit events, PHPUnit tests, and CI coverage.
+
 ## 1.0.0-beta.7 - 2026-07-31
 
 ### Fixed
